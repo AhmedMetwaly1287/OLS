@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\OLS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25400118-4064-477F-BFAD-F6BEBEEE6ECF}|OLS.csproj|c:\\users\\ahmed\\onedrive\\desktop\\ols\\repository\\archiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25400118-4064-477F-BFAD-F6BEBEEE6ECF}|OLS.csproj|solutionrelative:repository\\archiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArchiveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\OLS\\Repository\\ArchiveRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ArchiveRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\OLS\\Repository\\ArchiveRepository.cs",
+              "RelativeToolTip": "Repository\\ArchiveRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwDMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:03:48.874Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

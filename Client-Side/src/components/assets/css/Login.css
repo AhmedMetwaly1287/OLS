@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures that the container takes up the entire viewport height */
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px; /* Add some space between the form and the link */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-error-message-container {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ffcccc;
+  border-radius: 5px;
+  background-color: #ffe6e6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-error-message {
+  color: red;
+  text-align: center;
+}
+
+.hypertext {
+  width: 100%;
+  padding: 2px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}

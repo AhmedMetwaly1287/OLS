@@ -1,0 +1,44 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.page-container h1 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.page-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.page-container button:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn {
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}

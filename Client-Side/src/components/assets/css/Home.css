@@ -1,0 +1,95 @@
+.home-container {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.book-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-info {
+  margin-bottom: 10px;
+}
+
+.view-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+}
+
+.option {
+  cursor: pointer;
+  font-weight: bold;
+}
+.search-isbn {
+  margin: 2px;
+  width: 20%;
+}
+.search-racknum {
+  margin: 2px;
+  width: 20%;
+}
+.search-title {
+  margin: 2px;
+  width: 20%;
+}
+.search-author {
+  margin: 2px;
+  width: 20%;
+}

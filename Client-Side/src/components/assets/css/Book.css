@@ -1,0 +1,48 @@
+.book-container {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-details {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-info {
+  margin-bottom: 10px;
+}
+
+.borrow-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.borrow-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.book-success-message-container {
+  background-color: #d4edda; /* Green background color */
+  color: #155724; /* Green text color */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
